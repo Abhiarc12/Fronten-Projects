@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-color: pink;
+}
+nav{
+  margin: -12px -8px;
+  background-color: yellow;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #256daf;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  cursor:pointer;
+}
+nav ul li{
+  padding: 0 12px;
+}
+nav ul div{
+  padding: 0 12px;
+}
+.brand img{
+  padding: 0 6px;
+  width: 44px;
+  position: relative;
+  left: -5px;
+  border-radius: 15px;
+}
+.brand{
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+  transition: 1s;
+}
+nav .brand:hover{
+  color: pink;
+}
+
+.heading{
+  text-align: center;
+  position: relative;
+  top: 81px;
+  left: 10px;
+  font-size: 1.5rem;
+  font-style: oblique;
+}
+
+.discription{
+  text-align: center;
+  position: relative;
+  top: 105px;
+  left: 10px;
+  font-size: 1rem;
+  font-style: font-family: 'Caveat', cursive;
+}

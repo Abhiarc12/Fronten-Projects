@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  font-family: 'Caveat', cursive;
+}
+body{
+  background-color: #250d1ff0;
+  color: white;
+}
+nav{
+  margin: -12px -8px;
+  background-color: yellow;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #256daf;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  cursor:pointer;
+}
+nav ul li{
+  padding: 0 12px;
+}
+nav ul div{
+  padding: 0 12px;
+}
+.brand img{
+  padding: 0 6px;
+  width: 44px;
+  position: relative;
+  left: -5px;
+  border-radius: 15px;
+}
+.brand{
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+  transition: 1s;
+}
+nav .brand:hover{
+  color: pink;
+}
+
+.songs{
+  position: relative;
+  left: 81px;
+  top: 49px;
+  height: 85px;
+  width: 316px;
+  border-radius: 17px;
+  background-color: #80007652;
+  margin-bottom: 10px;
+  padding: 22px 0px 0px 29px;
+  transition: .2s;
+}
+.Play{
+  position: relative;
+  left: 251px;
+  top: -114px;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+}
+.songs:hover{
+  transform: scale(1.06);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  background-color: #80000052;
+}
+.container{
+  background-color: #a331f1e3;
+height: 634px;
+width: 510px;
+border-radius: 42px;
+position: relative;
+top: 20px;
+left: 478px;
+}
+.Song-title{
+  background-color: #11c916bf;
+  height: 36px;
+width: 478px;
+position: relative;
+top: 22px;
+left: 17px;
+border-radius: 39px;
+padding-top: 13px;
+text-align: center;
+transition: .3s;
+}
+.Song-title:hover{
+  transform: scale(1.06);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.song-img{
+  border-radius: 15px;
+  height: 62px;
+  width: 67px;
+}
+
+.about-Song{
+  position: relative;
+  top: -76px;
+  left: 103px;
+}

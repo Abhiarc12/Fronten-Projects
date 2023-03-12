@@ -2,6 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchBox{
+  position: relative;
+  top: -46px;
+  left: 872px;
+  border-radius: 18px;
+  height: 20px;
+  width: 203px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+.searchBtn{
+position:relative;
+top: -38px;
+left: 836px;
+height: 24px;
+width: 24px;
+cursor: pointer;
+}
+.notificationBar{
+  position: relative;
+  top: -73px;
+  left: 1106px;
+  height: 27px;
+  width: 27px;
+  cursor: pointer;
+  padding-left: 7px;
+}
 h2{
   font-family: 'Poppins', sans-serif;
 }
@@ -55,10 +87,10 @@ nav .brand:hover{
 
 .songs{
   position: relative;
-  left: 81px;
-  top: 49px;
-  height: 85px;
-  width: 316px;
+  left: 67px;
+    top: 46px;
+    height: 47px;
+    width: 317px;
   border-radius: 17px;
   background-color: #80007652;
   margin-bottom: 10px;
@@ -67,10 +99,12 @@ nav .brand:hover{
 }
 .Play{
   position: relative;
-  left: 251px;
-  top: -114px;
-  height: 36px;
-  width: 36px;
+
+  left: 248px;
+  top: -122px;
+      height: 30px;
+      width: 30px;
+
   cursor: pointer;
 }
 .songs:hover{
@@ -81,38 +115,46 @@ nav .brand:hover{
 }
 .container{
   background-color: #a331f1e3;
-height: 634px;
-width: 510px;
-border-radius: 42px;
-position: relative;
-top: 20px;
-left: 478px;
+  height: 463px;
+  width: 470px;
+  border-radius: 42px;
+  position: relative;
+  top: -20px;
+  left: 380px;
 }
 .Song-title{
   background-color: #11c916bf;
-  height: 36px;
-width: 478px;
-position: relative;
-top: 22px;
-left: 17px;
-border-radius: 39px;
-padding-top: 13px;
-text-align: center;
-transition: .3s;
-}
+      height: 35px;
+      width: 414px;
+      position: relative;
+      top: 21px;
+      left: 28px;
+      border-radius: 39px;
+      padding-top: 7px;
+      text-align: center;
+      transition: .3s;}
 .Song-title:hover{
   transform: scale(1.06);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
   z-index: 3;
 }
 .song-img{
-  border-radius: 15px;
-  height: 62px;
-  width: 67px;
+  border-radius: 10px;
+height: 50px;
+width: 50px;
+position: relative;
+top: -11px;
+left: -21px;
 }
 
 .about-Song{
   position: relative;
-  top: -76px;
-  left: 103px;
+  top: -72px;
+left: 59px;
+}
+.soundTrack{
+  position: relative;
+  top: -104px;
+  left: 48px;
+  color: pink;
 }
